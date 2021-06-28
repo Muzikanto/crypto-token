@@ -1,4 +1,4 @@
 node_modules
-contract/build
+src/build
 .idea
 .DS_Store
