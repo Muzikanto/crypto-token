@@ -1,0 +1,780 @@
+{
+  "contractName": "Metadata",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "totalSupply",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "decimals",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "symbol",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "name",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"decimals\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{\"decimals()\":{\"details\":\"Returns the token decimals.\"},\"name()\":{\"details\":\"Returns the token name.\"},\"symbol()\":{\"details\":\"Returns the token symbol.\"},\"totalSupply()\":{\"details\":\"See {BEP20-totalSupply}.\"}}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/maximschiriy/Work/Bsc-test/contract/contracts/Metadata.sol\":\"Metadata\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/maximschiriy/Work/Bsc-test/contract/contracts/Metadata.sol\":{\"keccak256\":\"0x0ca7ee7c41f59e9c2c20193aa65ef058a3fda01fe09ce95ac0aa9bd99bb858c5\",\"urls\":[\"bzz-raw://0e9f4534ad989d5fb706562ed2aab1c9f926141438fc37c449ebc771c9f793ea\",\"dweb:/ipfs/QmY65pAatEZx4p9yszbCN584LKknxjtP7UqjNbbHBaAhut\"]},\"/Users/maximschiriy/Work/Bsc-test/contract/contracts/Token.sol\":{\"keccak256\":\"0xc4eb27926008d18c75211eccb3b669679b70ceb6098b6728fc4ee3fee7813dd6\",\"urls\":[\"bzz-raw://969dd145dd40c0d657ca25aa07fda8ad355b4794be8ed97a8d7a0bbcc4e708e6\",\"dweb:/ipfs/QmXuy1w6wrZQWbGkeUVkPRLLjrjY3W65LMgDJnBKk915Dd\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50610332806100206000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c806306fdde031461005157806318160ddd146100d4578063313ce567146100f257806395d89b4114610116575b600080fd5b610059610199565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561009957808201518184015260208101905061007e565b50505050905090810190601f1680156100c65780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6100dc61023b565b6040518082815260200191505060405180910390f35b6100fa610244565b604051808260ff1660ff16815260200191505060405180910390f35b61011e61025b565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561015e578082015181840152602081019050610143565b50505050905090810190601f16801561018b5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b606060038054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156102315780601f1061020657610100808354040283529160200191610231565b820191906000526020600020905b81548152906001019060200180831161021457829003601f168201915b5050505050905090565b60008054905090565b6000600160009054906101000a900460ff16905090565b606060028054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156102f35780601f106102c8576101008083540402835291602001916102f3565b820191906000526020600020905b8154815290600101906020018083116102d657829003601f168201915b505050505090509056fea265627a7a72315820eba4a885eff8080269d8f7a70060b7bb758bde9ccf01e27e95445019486e99cb64736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061004c5760003560e01c806306fdde031461005157806318160ddd146100d4578063313ce567146100f257806395d89b4114610116575b600080fd5b610059610199565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561009957808201518184015260208101905061007e565b50505050905090810190601f1680156100c65780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6100dc61023b565b6040518082815260200191505060405180910390f35b6100fa610244565b604051808260ff1660ff16815260200191505060405180910390f35b61011e61025b565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561015e578082015181840152602081019050610143565b50505050905090810190601f16801561018b5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b606060038054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156102315780601f1061020657610100808354040283529160200191610231565b820191906000526020600020905b81548152906001019060200180831161021457829003601f168201915b5050505050905090565b60008054905090565b6000600160009054906101000a900460ff16905090565b606060028054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156102f35780601f106102c8576101008083540402835291602001916102f3565b820191906000526020600020905b8154815290600101906020018083116102d657829003601f168201915b505050505090509056fea265627a7a72315820eba4a885eff8080269d8f7a70060b7bb758bde9ccf01e27e95445019486e99cb64736f6c63430005100032",
+  "sourceMap": "48:458:4:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;48:458:4;;;;;;;",
+  "deployedSourceMap": "48:458:4:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;48:458:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;421:83;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;421:83:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;221:91:9;;;:::i;:::-;;;;;;;;;;;;;;;;;;;137:81:4;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;278:87;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;278:87:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;421:83;460:13;492:5;485:12;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;421:83;:::o;221:91:9:-;267:7;293:12;;286:19;;221:91;:::o;137:81:4:-;178:5;202:9;;;;;;;;;;;195:16;;137:81;:::o;278:87::-;319:13;351:7;344:14;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;278:87;:::o",
+  "source": "pragma solidity 0.5.16;\n\nimport './Token.sol';\n\ncontract Metadata is Token {\n    /**\n     * @dev Returns the token decimals.\n     */\n    function decimals() public view returns (uint8) {\n        return _decimals;\n    }\n\n    /**\n     * @dev Returns the token symbol.\n     */\n    function symbol() external view returns (string memory) {\n        return _symbol;\n    }\n\n    /**\n    * @dev Returns the token name.\n    */\n    function name() external view returns (string memory) {\n        return _name;\n    }\n}\n",
+  "sourcePath": "/Users/maximschiriy/Work/Bsc-test/contract/contracts/Metadata.sol",
+  "ast": {
+    "absolutePath": "/Users/maximschiriy/Work/Bsc-test/contract/contracts/Metadata.sol",
+    "exportedSymbols": {
+      "Metadata": [
+        465
+      ]
+    },
+    "id": 466,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 437,
+        "literals": [
+          "solidity",
+          "0.5",
+          ".16"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:4"
+      },
+      {
+        "absolutePath": "/Users/maximschiriy/Work/Bsc-test/contract/contracts/Token.sol",
+        "file": "./Token.sol",
+        "id": 438,
+        "nodeType": "ImportDirective",
+        "scope": 466,
+        "sourceUnit": 933,
+        "src": "25:21:4",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 439,
+              "name": "Token",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 932,
+              "src": "69:5:4",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Token_$932",
+                "typeString": "contract Token"
+              }
+            },
+            "id": 440,
+            "nodeType": "InheritanceSpecifier",
+            "src": "69:5:4"
+          }
+        ],
+        "contractDependencies": [
+          932
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 465,
+        "linearizedBaseContracts": [
+          465,
+          932
+        ],
+        "name": "Metadata",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 447,
+              "nodeType": "Block",
+              "src": "185:33:4",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 445,
+                    "name": "_decimals",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 919,
+                    "src": "202:9:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "functionReturnParameters": 444,
+                  "id": 446,
+                  "nodeType": "Return",
+                  "src": "195:16:4"
+                }
+              ]
+            },
+            "documentation": "@dev Returns the token decimals.",
+            "id": 448,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "decimals",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 441,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "154:2:4"
+            },
+            "returnParameters": {
+              "id": 444,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 443,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 448,
+                  "src": "178:5:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 442,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "178:5:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "177:7:4"
+            },
+            "scope": 465,
+            "src": "137:81:4",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 455,
+              "nodeType": "Block",
+              "src": "334:31:4",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 453,
+                    "name": "_symbol",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 921,
+                    "src": "351:7:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage",
+                      "typeString": "string storage ref"
+                    }
+                  },
+                  "functionReturnParameters": 452,
+                  "id": 454,
+                  "nodeType": "Return",
+                  "src": "344:14:4"
+                }
+              ]
+            },
+            "documentation": "@dev Returns the token symbol.",
+            "id": 456,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "symbol",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 449,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "293:2:4"
+            },
+            "returnParameters": {
+              "id": 452,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 451,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 456,
+                  "src": "319:13:4",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 450,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "319:6:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "318:15:4"
+            },
+            "scope": 465,
+            "src": "278:87:4",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "external"
+          },
+          {
+            "body": {
+              "id": 463,
+              "nodeType": "Block",
+              "src": "475:29:4",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 461,
+                    "name": "_name",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 923,
+                    "src": "492:5:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage",
+                      "typeString": "string storage ref"
+                    }
+                  },
+                  "functionReturnParameters": 460,
+                  "id": 462,
+                  "nodeType": "Return",
+                  "src": "485:12:4"
+                }
+              ]
+            },
+            "documentation": "@dev Returns the token name.",
+            "id": 464,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "name",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 457,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "434:2:4"
+            },
+            "returnParameters": {
+              "id": 460,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 459,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 464,
+                  "src": "460:13:4",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 458,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "460:6:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "459:15:4"
+            },
+            "scope": 465,
+            "src": "421:83:4",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 466,
+        "src": "48:458:4"
+      }
+    ],
+    "src": "0:507:4"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/Users/maximschiriy/Work/Bsc-test/contract/contracts/Metadata.sol",
+      "exportedSymbols": {
+        "Metadata": [
+          465
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "0.5",
+            ".16"
+          ]
+        },
+        "id": 437,
+        "name": "PragmaDirective",
+        "src": "0:23:4"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 933,
+          "absolutePath": "/Users/maximschiriy/Work/Bsc-test/contract/contracts/Token.sol",
+          "file": "./Token.sol",
+          "scope": 466,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 438,
+        "name": "ImportDirective",
+        "src": "25:21:4"
+      },
+      {
+        "attributes": {
+          "contractDependencies": [
+            932
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            465,
+            932
+          ],
+          "name": "Metadata",
+          "scope": 466
+        },
+        "children": [
+          {
+            "attributes": {
+              "arguments": null
+            },
+            "children": [
+              {
+                "attributes": {
+                  "contractScope": null,
+                  "name": "Token",
+                  "referencedDeclaration": 932,
+                  "type": "contract Token"
+                },
+                "id": 439,
+                "name": "UserDefinedTypeName",
+                "src": "69:5:4"
+              }
+            ],
+            "id": 440,
+            "name": "InheritanceSpecifier",
+            "src": "69:5:4"
+          },
+          {
+            "attributes": {
+              "documentation": "@dev Returns the token decimals.",
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "decimals",
+              "scope": 465,
+              "stateMutability": "view",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 441,
+                "name": "ParameterList",
+                "src": "154:2:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 448,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint8",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint8",
+                          "type": "uint8"
+                        },
+                        "id": 442,
+                        "name": "ElementaryTypeName",
+                        "src": "178:5:4"
+                      }
+                    ],
+                    "id": 443,
+                    "name": "VariableDeclaration",
+                    "src": "178:5:4"
+                  }
+                ],
+                "id": 444,
+                "name": "ParameterList",
+                "src": "177:7:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 444
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "overloadedDeclarations": [
+                            null
+                          ],
+                          "referencedDeclaration": 919,
+                          "type": "uint8",
+                          "value": "_decimals"
+                        },
+                        "id": 445,
+                        "name": "Identifier",
+                        "src": "202:9:4"
+                      }
+                    ],
+                    "id": 446,
+                    "name": "Return",
+                    "src": "195:16:4"
+                  }
+                ],
+                "id": 447,
+                "name": "Block",
+                "src": "185:33:4"
+              }
+            ],
+            "id": 448,
+            "name": "FunctionDefinition",
+            "src": "137:81:4"
+          },
+          {
+            "attributes": {
+              "documentation": "@dev Returns the token symbol.",
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "symbol",
+              "scope": 465,
+              "stateMutability": "view",
+              "superFunction": null,
+              "visibility": "external"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 449,
+                "name": "ParameterList",
+                "src": "293:2:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 456,
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "type": "string",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 450,
+                        "name": "ElementaryTypeName",
+                        "src": "319:6:4"
+                      }
+                    ],
+                    "id": 451,
+                    "name": "VariableDeclaration",
+                    "src": "319:13:4"
+                  }
+                ],
+                "id": 452,
+                "name": "ParameterList",
+                "src": "318:15:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 452
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "overloadedDeclarations": [
+                            null
+                          ],
+                          "referencedDeclaration": 921,
+                          "type": "string storage ref",
+                          "value": "_symbol"
+                        },
+                        "id": 453,
+                        "name": "Identifier",
+                        "src": "351:7:4"
+                      }
+                    ],
+                    "id": 454,
+                    "name": "Return",
+                    "src": "344:14:4"
+                  }
+                ],
+                "id": 455,
+                "name": "Block",
+                "src": "334:31:4"
+              }
+            ],
+            "id": 456,
+            "name": "FunctionDefinition",
+            "src": "278:87:4"
+          },
+          {
+            "attributes": {
+              "documentation": "@dev Returns the token name.",
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "name",
+              "scope": 465,
+              "stateMutability": "view",
+              "superFunction": null,
+              "visibility": "external"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 457,
+                "name": "ParameterList",
+                "src": "434:2:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 464,
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "type": "string",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 458,
+                        "name": "ElementaryTypeName",
+                        "src": "460:6:4"
+                      }
+                    ],
+                    "id": 459,
+                    "name": "VariableDeclaration",
+                    "src": "460:13:4"
+                  }
+                ],
+                "id": 460,
+                "name": "ParameterList",
+                "src": "459:15:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 460
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "overloadedDeclarations": [
+                            null
+                          ],
+                          "referencedDeclaration": 923,
+                          "type": "string storage ref",
+                          "value": "_name"
+                        },
+                        "id": 461,
+                        "name": "Identifier",
+                        "src": "492:5:4"
+                      }
+                    ],
+                    "id": 462,
+                    "name": "Return",
+                    "src": "485:12:4"
+                  }
+                ],
+                "id": 463,
+                "name": "Block",
+                "src": "475:29:4"
+              }
+            ],
+            "id": 464,
+            "name": "FunctionDefinition",
+            "src": "421:83:4"
+          }
+        ],
+        "id": 465,
+        "name": "ContractDefinition",
+        "src": "48:458:4"
+      }
+    ],
+    "id": 466,
+    "name": "SourceUnit",
+    "src": "0:507:4"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-06-28T16:53:10.621Z",
+  "devdoc": {
+    "methods": {
+      "decimals()": {
+        "details": "Returns the token decimals."
+      },
+      "name()": {
+        "details": "Returns the token name."
+      },
+      "symbol()": {
+        "details": "Returns the token symbol."
+      },
+      "totalSupply()": {
+        "details": "See {BEP20-totalSupply}."
+      }
+    }
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
