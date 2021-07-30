@@ -17,7 +17,7 @@ contract Vault is Context, Approvable {
      */
     event Transfer(address indexed from, address indexed to, uint256 value);
 
-    function _vaultAddress() internal returns (address) {
+    function _vaultAddress() internal view returns (address) {
         return address(this);
     }
 

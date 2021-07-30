@@ -1,4 +1,8 @@
-node_modules
-src/build
 .idea
 .DS_Store
+
+client/.next
+client/node_modules
+
+blockchain/build
+blockchain/node_modules

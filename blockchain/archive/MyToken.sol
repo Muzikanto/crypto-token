@@ -25,4 +25,8 @@ contract MyToken is Context, Token, Metadata, Ownable, Approvable, Vault, Mintab
         uint256 ownerSupply = _totalSupply.div(10);
         _transfer(_vaultAddress(), _msgSender(), ownerSupply);
     }
+
+    function totalSupplyTest() public view returns (uint) {
+        return _totalSupply;
+    }
 }
